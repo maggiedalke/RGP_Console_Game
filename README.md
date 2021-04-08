@@ -1,13 +1,17 @@
 # Text Adventure RPG
 
-We want to create an RPG game, like those games where you are a hero and you are fighting monsters. <br>
+I created an RPG game, where you are a hero and you are fighting monsters. <br>
 
-The game will start with asking about our name, then it will present us with the following options:<br>
+The game starts with asking about our name, then it presents the user with the following options:<br>
 - Show our statistics (like number of games we played so far, number of games we won so
 far…etc)
 - Show our inventory (like what weapons and armors we currently have)
 - Fight! (it will start a fighting game between us and a random monster from a list of monsters)
-<p>The game has the following classes:<br>
+- Quit! (The user can choose to leave the game)
+
+## Development Process 
+ 
+ The game has the following classes:<br>
 
 ### Hero Class
 - which represents us (the player), the hero has the following properties:
@@ -49,10 +53,5 @@ option in the main menu (switch statement), once you finish an option (like show
 you should be able to go back to the main menu without restarting the application.
 - Inside the main function (class Program), we just want to create an object (game) from Game
 class, then call game.Start().
-
-#### Notes:
-- You can add any suitable properties and helper functions that you think are important to the
-solution.
-Bonus functions:
 - The user can choose to fight the strongest (top damage or top defense) monster
 - A Hero can earn coins if he won a match, he can use those coins to buy Health during the game.
