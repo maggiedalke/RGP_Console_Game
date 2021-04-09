@@ -55,3 +55,34 @@ you should be able to go back to the main menu without restarting the applicatio
 class, then call game.Start().
 - The user can choose to fight the strongest (top damage or top defense) monster
 - A Hero can earn coins if he won a match, he can use those coins to buy Health during the game.
+
+## How to use
+This app has to be run in Visual Studio. Once you have all the code, you will **start the console**. <br>
+**The app is entirely keyboard-based, and the app will assist you in determining which keys to press.**
+
+The user will enter a name and the main menu will come up. <br>
+The main menu consists of 4 choices. 
+- **Current Stats**
+- **Show Inventory**
+- **Fight**
+- **Quit**
+
+Below is the function of each choice:
+
+**Current Stats** will allow the user to see information such as:
+- How many games won/lost/tied/played
+- current armor and weapon
+- Health/Defense/Strength 
+- Weapons/Armor Bag
+
+**Show Inventory** will allow the user to view their equipped armor and weapon. This is where the user can look in their armor/weapons bag and change any equipment. 
+
+**Fight** will start a fight. <br>
+During a fight you will fight a cluster of random monsters - 1 at a time. <br>
+**Features of the fight include**:
+- gaining experience, 
+- gaining coins for a win. 
+- dropping coins for a lose
+- spending coins to buy healing potions. 
+
+**Quit** - The game will continue to run until you choose to quit or close the console. 
